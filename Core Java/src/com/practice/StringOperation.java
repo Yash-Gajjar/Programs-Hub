@@ -66,5 +66,8 @@ public class StringOperation {
         if (name.equals(name2)) System.out.println("name and name2 matched!");
         else System.out.println("name and name2 didn't match!");
 
+//        Creating sub-string
+        System.out.println(name.substring(3, 8));
+
     }
 }

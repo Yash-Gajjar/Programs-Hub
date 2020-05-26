@@ -49,5 +49,19 @@ public class ArraysOperations {
                 System.out.println("Value: " + row);
         System.out.println();
 
+
+//        Using 2 dimensional array
+        String[][] contactDetails = {
+                {"CoderBoy", "1234-5678"},
+                {"CoderGirl", "9876-5432"},
+                {"Brownie", "9988-2233"},
+                {"Edith", "5533-4499"}
+        };
+
+        for (String[] contact : contactDetails) {
+            System.out.println("\nName: " + contact[0]);
+            System.out.println("Number: " + contact[1]);
+        }
+
     }
 }
