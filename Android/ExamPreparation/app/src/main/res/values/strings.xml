@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Exam Preparation</string>
+
+    <array name="grid_view_items">
+        <!-- String[] tempValues = {"CoderBoy", "Havado", "Chars", "Gutkha", "Tarbuch", "Line Maru", "Pati", "Patni", "Middle Man"} ;-->
+        <item>CoderBoy</item>
+        <item>Havado</item>
+        <item>Chars</item>
+        <item>Gutkha</item>
+        <item>Tarbuch</item>
+        <item>Line Maru</item>
+        <item>Pati</item>
+        <item>Patni</item>
+        <item>Middle Man</item>
+    </array>
+
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Master Application</string>
+
+
+    <string name="dcr_button"> &#60; </string>
+    <string name="icr_button"> &#62; </string>
+
+    <array name="list_topic">
+        <item>RatingBar</item>
+        <item>SeekBar RGB color</item>
+        <item>Date and Time</item>
+        <item>Text Animation</item>
+        <item>API Call</item>
+        <item>Permission</item>
+        <item>Content Provider</item>
+        <item>Content Provider - Contacts</item>
+    </array>
+</resources>

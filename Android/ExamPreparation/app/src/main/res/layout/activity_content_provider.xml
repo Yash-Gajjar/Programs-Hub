@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20sp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContentProvider">
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/etPersonName"
+        android:hint="Person's Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/btnAddNewPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Person"/>
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/btnShowPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show People" />
+
+    <ListView
+        android:layout_margin="15dp"
+        android:id="@+id/lstPeople"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Registratioin Login SharedPreference</string>
+    <dimen name="default_control_margin">10dp</dimen>
+    <string name="shared_preference_name">AppShared</string>
+</resources>
