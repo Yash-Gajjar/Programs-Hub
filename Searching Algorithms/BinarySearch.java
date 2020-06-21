@@ -13,9 +13,8 @@ public class BinarySearch {
             else
                 upperBound = middle-1 ;
         }
-
+        
         return -1 ;
-
     }
 
     public static void main(String args[]) {
